@@ -9,6 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface PokemonRepository extends MongoRepository<PokemonOneForOne, Integer> {
-//   @DeleteQuery
-//    void deleteById(Integer id);
+
 }
